@@ -24,3 +24,32 @@ s = "Hello World!"
 print(s)
 s= "Try Python!"
 print(s)
+
+x = [5,10,15,20,25,30,35,40]
+print(x[5])
+print(x[-1])
+print(x[3:5])
+print(x[:5])
+print(x[-3:])
+print(x[1:7:2])
+
+
+#tuple
+t = (5,'program', 1+3j)
+t = (5,'program', 1+3j)
+t[1]
+t[0:3]
+
+
+# Set
+a = {1,2,2,3,3,3}
+a
+
+#Dictionary
+d = {1:'value','key':2}
+print(type(d))
+
+d = {1:'value','key':2}
+print(type(d))
+print("d[1] = ", d[1]);
+print("d['key'] = ", d['key']);
